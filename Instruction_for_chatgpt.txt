@@ -1,0 +1,102 @@
+Sample from the questionnaire and possible answers.
+  
+  "E_54": {
+    "name": "E_54",
+    "code_question": "E_53",
+    "question_fr": "Caract\u00e9risez votre douleur:",
+    "question_en": "Characterize your pain:",
+    "is_antecedent": false,
+    "default_value": "V_11",
+    "value_meaning": {
+      "V_11": { "fr": "NA", "en": "NA" },
+      "V_71": { "fr": "d\u00e9chirante", "en": "heartbreaking" },
+      "V_112": { "fr": "lancinante", "en": "haunting" },
+      "V_154": { "fr": "p\u00e9nible", "en": "tedious" },
+      "V_161": { "fr": "sensible", "en": "sensitive" },
+      "V_179": { "fr": "un coup de couteau", "en": "a knife stroke" },
+      "V_180": { "fr": "un tiraillement", "en": "tugging" },
+      "V_181": { "fr": "une br\u00fblure", "en": "burning" },
+      "V_182": { "fr": "une crampe", "en": "a cramp" },
+      "V_183": { "fr": "une lourdeur", "en": "heavy" },
+      "V_184": { "fr": "une pulsation", "en": "a pulse" },
+      "V_191": { "fr": "violente", "en": "violent" },
+      "V_192": { "fr": "vive", "en": "sharp" },
+      "V_193": { "fr": "\u00e9coeurante", "en": "sickening" },
+      "V_196": { "fr": "\u00e9peurante", "en": "scary" },
+      "V_198": { "fr": "\u00e9puisante", "en": "exhausting" }
+    },
+    "possible-values": [
+      "V_11",
+      "V_71",
+      "V_112",
+      "V_154",
+      "V_161",
+      "V_179",
+      "V_180",
+      "V_181",
+      "V_182",
+      "V_183",
+      "V_184",
+      "V_191",
+      "V_192",
+      "V_193",
+      "V_196",
+      "V_198"
+    ],
+    "data_type": "M"
+  }
+  
+  Relation between the (question, response) <=> diagnosis:
+    "Guillain-Barr\u00e9 syndrome": {
+    "condition_name": "Guillain-Barr\u00e9 syndrome",
+    "cond-name-fr": "Syndrome de Guillain-Barr\u00e9",
+    "cond-name-eng": "Guillain-Barr\u00e9 syndrome",
+    "icd10-id": "G61.0",
+    "symptoms": {
+      "E_84": {},
+      "E_66": {},
+      "E_83": {},
+      "E_157": {},
+      "E_93": {},
+      "E_156": {},
+      "E_176": {},
+      "E_177": {}
+    },
+    "antecedents": { "E_0": {}, "E_204": {} },
+    "severity": 2
+  },
+  "Acute laryngitis": {
+    "condition_name": "Acute laryngitis",
+    "cond-name-fr": "Laryngite aigue",
+    "cond-name-eng": "Acute laryngitis",
+    "icd10-id": "J04.0",
+    "symptoms": {
+      "E_212": {},
+      "E_91": {},
+      "E_201": {},
+      "E_55": {},
+      "E_53": {},
+      "E_57": {},
+      "E_54": {},
+      "E_59": {},
+      "E_56": {},
+      "E_58": {}
+    }
+    
+    
+    
+Patient information is given like this: 
+AGE,DIFFERENTIAL_DIAGNOSIS,SEX,PATHOLOGY,EVIDENCES,INITIAL_EVIDENCE
+55,"[['Anemia', 0.25071110167158567], ['Atrial fibrillation', 0.18612478078040334], ['Cluster headache', 0.11721971258749497], ['HIV (initial infection)', 0.11600212656027187], ['Anaphylaxis', 0.11338465680830324], ['Chagas', 0.10969575906379077], ['PSVT', 0.0784993666609853], ['Scombroid food poisoning', 0.028362495867164855]]",F,Anemia,"['E_7', 'E_24', 'E_26', 'E_53', 'E_54_@_V_180', 'E_54_@_V_182', 'E_55_@_V_25', 'E_55_@_V_62', 'E_55_@_V_89', 'E_55_@_V_167', 'E_56_@_2', 'E_57_@_V_123', 'E_58_@_3', 'E_59_@_5', 'E_76', 'E_82', 'E_88', 'E_89', 'E_113', 'E_140', 'E_146', 'E_154', 'E_204_@_V_7', 'E_208']",E_154
+
+
+<|Instruction|>
+1. Questions asked to a patient
+2. Possible answers listed for that question
+3. Patient information is formed based on the questionnaire and the answers
+4. Using the patient information, a predictive diagnosis is given
+
+
+NB: Write me a python script to convert this data into suitable format for bioBERT
+bioBRT format: {"text": "Question: Characterize your pain. Answer: Burning.", "label": ["Acute Laryngitis"]}
+

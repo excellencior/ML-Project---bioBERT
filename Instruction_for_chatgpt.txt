@@ -99,4 +99,3 @@ AGE,DIFFERENTIAL_DIAGNOSIS,SEX,PATHOLOGY,EVIDENCES,INITIAL_EVIDENCE
 
 NB: Write me a python script to convert this data into suitable format for bioBERT
 bioBRT format: {"text": "Question: Characterize your pain. Answer: Burning.", "label": ["Acute Laryngitis"]}
-

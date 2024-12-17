@@ -188,7 +188,7 @@ def train_model(train_dataset, val_dataset, tokenizer, model_path="dmis-lab/biob
                 # DEBUG: Only using softmax to get predicted class, just for printing.
                 probabilities = torch.softmax(outputs.logits, dim=-1)
                 predicted_classes = torch.argmax(probabilities, dim=-1)
-                print("Most Probable Diagnosis:\n", predicted_classes)
+                # print("Probable Diagnosis:\n", predicted_classes)
 
         avg_val_loss = val_loss / len(val_loader)
 
@@ -290,7 +290,7 @@ def evaluate_model(test_texts, multi_label_binarizer, model_path="best_biobert_m
     
     # Compute metrics
     test_accuracy = accuracy_score(all_true_labels.flatten(), all_predictions.flatten())
-    test_f1 = f1_score(all_true_labels, all_predictions, average='samples')
+    test_f1 = f1_score(all_true_labels.flatten(), all_predictions.flatten(), average='samples')
     hamming = hamming_loss(all_true_labels, all_predictions)
 
     print(f"Test Accuracy: {test_accuracy:.4f}")

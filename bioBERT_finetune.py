@@ -214,6 +214,7 @@ def train_model(train_dataset, val_dataset, tokenizer, model_path="dmis-lab/biob
             best_val_loss = avg_val_loss
             epochs_no_improve = 0
             model.save_pretrained("best_biobert_model")
+            torch.save(model, "best_biobert_model/model.pt")  # Save the entire model
             tokenizer.save_pretrained("best_biobert_model")
             print("Best model saved!")
         else:
@@ -302,9 +303,9 @@ def evaluate_model(test_texts, multi_label_binarizer, model_path="best_biobert_m
 # Main execution
 def main():
     # File paths
-    train_data_path = "dataset_processed/json/train_sample1000.json"
-    val_data_path = "dataset_processed/json/val_sample250.json"
-    test_data_path = "dataset_processed/json/test_sample1000.json"
+    train_data_path = "dataset_processed/json/train_sample5000.json"
+    val_data_path = "dataset_processed/json/val_sample2500.json"
+    test_data_path = "dataset_processed/json/test_sample5000.json"
 
     # Full list of available labels
     with open('true_labels.json', 'r') as f:
@@ -324,7 +325,7 @@ def main():
     )
 
     # Train model
-    model = train_model(train_dataset, val_dataset, tokenizer, epochs=80)
+    model = train_model(train_dataset, val_dataset, tokenizer, epochs=50)
 
     # Evaluate model
     predicted_labels = evaluate_model(test_texts, label_encoder)

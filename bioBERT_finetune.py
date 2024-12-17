@@ -193,9 +193,9 @@ def evaluate_model(test_texts, label_encoder, model_path="best_biobert_model", m
     return predicted_labels
 
 # File paths
-train_csv = "train.csv"
-val_csv = "val.csv"
-test_csv = "test.csv"
+train_csv = "dataset/samples/train_sample50.csv"
+val_csv = "dataset/samples/val_sample20.csv"
+test_csv = "dataset/samples/test_sample50.csv"
 json_path = "release_evidences_cleaned.json"
 
 # Full list of available labels
@@ -206,13 +206,15 @@ train_data = transform_data(train_csv, json_path)
 val_data = transform_data(val_csv, json_path)
 test_data = transform_data(test_csv, json_path)
 
-# Prepare datasets
-tokenizer = BertTokenizer.from_pretrained("dmis-lab/biobert-v1.1")
-train_dataset, val_dataset, test_texts, label_encoder = prepare_datasets(train_data, val_data, test_data, all_labels, tokenizer, max_length=128)
+print(val_data)
 
-# Train model
-model = train_model(train_dataset, val_dataset)
+# # Prepare datasets
+# tokenizer = BertTokenizer.from_pretrained("dmis-lab/biobert-v1.1")
+# train_dataset, val_dataset, test_texts, label_encoder = prepare_datasets(train_data, val_data, test_data, all_labels, tokenizer, max_length=128)
 
-# Evaluate model
-predicted_labels = evaluate_model(test_texts, label_encoder)
-print(predicted_labels)
+# # Train model
+# model = train_model(train_dataset, val_dataset)
+
+# # Evaluate model
+# predicted_labels = evaluate_model(test_texts, label_encoder)
+# print(predicted_labels)

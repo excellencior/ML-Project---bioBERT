@@ -193,9 +193,9 @@ def evaluate_model(test_texts, label_encoder, model_path="best_biobert_model", m
     return predicted_labels
 
 # File paths
-train_csv = "dataset/samples/train_sample50.csv"
-val_csv = "dataset/samples/val_sample20.csv"
-test_csv = "dataset/samples/test_sample50.csv"
+train_csv = "dataset_processed/csv/train_sample50.csv"
+val_csv = "dataset_processed/csv/val_sample20.csv"
+test_csv = "dataset_processed/csv/test_sample50.csv"
 json_path = "release_evidences_cleaned.json"
 
 # Full list of available labels

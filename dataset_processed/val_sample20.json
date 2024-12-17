@@ -1,0 +1,708 @@
+[
+    {
+        "Age": 71,
+        "Sex": "M",
+        "Antecedents": [
+            "Do you have an active cancer? - Y",
+            "Have you been unable to move or get up for more than 3 consecutive days within the last 4 weeks? - Y",
+            "Have you had surgery within the last month? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - North America"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - sharp",
+            "Do you feel pain somewhere? - thigh(R) & calf(R) & breast(R) & breast(L) & posterior chest wall(L)",
+            "How intense is the pain? - 4",
+            "Does the pain radiate to another location? - side of the chest(R) & scapula(R) & scapula(L) & posterior chest wall(R) & posterior chest wall(L)",
+            "How precisely is the pain located? - 10",
+            "How fast did the pain appear? - 10",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you have swelling in one or more areas of your body? - Y",
+            "Where is the swelling located? - posterior aspect of the ankle(L) & calf(R)",
+            "Did you lose consciousness? - Y",
+            "Do you have pain that is increased when you breathe in deeply? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Pulmonary embolism",
+            "Pericarditis",
+            "Acute pulmonary edema",
+            "Possible NSTEMI / STEMI",
+            "Panic attack",
+            "Spontaneous pneumothorax",
+            "Unstable angina",
+            "Myocarditis",
+            "Stable angina",
+            "Pulmonary neoplasm",
+            "Guillain-Barr\u00e9 syndrome",
+            "Atrial fibrillation",
+            "Anaphylaxis",
+            "Acute dystonic reactions",
+            "Myasthenia gravis",
+            "Anemia",
+            "Chagas",
+            "Sarcoidosis"
+        ]
+    },
+    {
+        "Age": 48,
+        "Sex": "F",
+        "Antecedents": [
+            "Have you had a cold in the last 2 weeks? - Y",
+            "Have you ever had pneumonia? - Y",
+            "Do you have polyps in your nose? - Y",
+            "Do you have a deviated nasal septum? - Y",
+            "Do you have asthma or have you ever had to use a bronchodilator in the past? - Y",
+            "Have you ever been diagnosed with gastroesophageal reflux? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N",
+            "Are you more likely to develop common allergies than the general population? - Y"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - burning & sharp",
+            "Do you feel pain somewhere? - mouth & forehead & cheek(R) & cheek(L) & nose",
+            "How intense is the pain? - 1",
+            "Does the pain radiate to another location? - back of head & temple(R) & temple(L)",
+            "How precisely is the pain located? - 3",
+            "How fast did the pain appear? - 2",
+            "Have you lost your sense of smell? - Y",
+            "Do you have nasal congestion or a clear runny nose? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Viral pharyngitis",
+            "Cluster headache",
+            "Chronic rhinosinusitis",
+            "Chagas",
+            "Anemia",
+            "Acute laryngitis"
+        ]
+    },
+    {
+        "Age": 18,
+        "Sex": "M",
+        "Antecedents": [
+            "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - sensitive",
+            "Do you feel pain somewhere? - ear(R)",
+            "How intense is the pain? - 9",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 8",
+            "How fast did the pain appear? - 1",
+            "Do you have a fever (either felt or measured with a thermometer)? - Y",
+            "Do you have nasal congestion or a clear runny nose? - Y",
+            "Do you have a cough? - Y"
+        ],
+        "Differential Diagnosis": [
+            "URTI",
+            "Acute otitis media",
+            "Bronchitis",
+            "Influenza",
+            "Tuberculosis",
+            "Chagas"
+        ]
+    },
+    {
+        "Age": 29,
+        "Sex": "F",
+        "Antecedents": [
+            "Do you feel anxious? - Y",
+            "Do you consume energy drinks regularly? - Y",
+            "Do you regularly take stimulant drugs? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - burning & heavy & sharp",
+            "Do you feel pain somewhere? - back of head",
+            "How intense is the pain? - 2",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 2",
+            "How fast did the pain appear? - 5",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you feel slightly dizzy or lightheaded? - Y",
+            "Do you feel lightheaded and dizzy or do you feel like you are about to faint? - Y",
+            "Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations? - Y"
+        ],
+        "Differential Diagnosis": [
+            "PSVT",
+            "Anemia",
+            "Atrial fibrillation",
+            "Panic attack",
+            "Anaphylaxis",
+            "Pulmonary embolism",
+            "Acute pulmonary edema",
+            "Scombroid food poisoning",
+            "Acute dystonic reactions",
+            "Myasthenia gravis",
+            "Chagas",
+            "Guillain-Barr\u00e9 syndrome",
+            "SLE"
+        ]
+    },
+    {
+        "Age": 43,
+        "Sex": "M",
+        "Antecedents": [
+            "Have you been in contact with a person with similar symptoms in the past 2 weeks? - Y",
+            "Do you smoke cigarettes? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Have you been coughing up blood? - Y",
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - sensitive",
+            "Do you feel pain somewhere? - tonsil(R) & tonsil(L) & thyroid cartilage & palace & under the jaw",
+            "How intense is the pain? - 3",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 8",
+            "How fast did the pain appear? - 1",
+            "Do you have a cough? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Bronchitis",
+            "Acute laryngitis",
+            "Viral pharyngitis",
+            "Tuberculosis",
+            "Possible NSTEMI / STEMI",
+            "Unstable angina",
+            "Pulmonary embolism",
+            "Stable angina"
+        ]
+    },
+    {
+        "Age": 59,
+        "Sex": "M",
+        "Antecedents": [
+            "Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)? - Y",
+            "Do you have a known issue with one of your heart valves? - Y",
+            "Do you take corticosteroids? - Y",
+            "Do you have heart failure? - Y",
+            "Do you have liver cirrhosis? - Y",
+            "Have you ever had surgery to remove lymph nodes? - Y",
+            "Were you diagnosed with endocrine disease or a hormone dysfunction? - Y",
+            "Have you ever been diagnosed with obstructive sleep apnea (OSA)? - Y",
+            "Do you have a known kidney problem resulting in an inability to retain proteins? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - sensitive & tugging & heavy",
+            "Do you feel pain somewhere? - lateral side of the foot(R) & lateral side of the foot(L) & thigh(R) & calf(R) & sole(L)",
+            "How intense is the pain? - 3",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 6",
+            "How fast did the pain appear? - 4",
+            "Do you have swelling in one or more areas of your body? - Y",
+            "Where is the swelling located? - ankle(R) & ankle(L) & thigh(R) & thigh(L) & dorsal aspect of the foot(R)"
+        ],
+        "Differential Diagnosis": [
+            "Localized edema",
+            "Chagas",
+            "Anaphylaxis"
+        ]
+    },
+    {
+        "Age": 52,
+        "Sex": "F",
+        "Antecedents": [
+            "Do you have severe Chronic Obstructive Pulmonary Disease (COPD)? - Y",
+            "Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year? - Y",
+            "Do you smoke cigarettes? - Y",
+            "Have you ever been diagnosed with gastroesophageal reflux? - Y",
+            "Do you work in agriculture? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you have a cough that produces colored or more abundant sputum than usual? - Y",
+            "Do you have a cough? - Y",
+            "Have you noticed a wheezing sound when you exhale? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Acute COPD exacerbation / infection",
+            "Bronchitis",
+            "Bronchiectasis",
+            "Pneumonia",
+            "Pulmonary neoplasm",
+            "Pulmonary embolism",
+            "Guillain-Barr\u00e9 syndrome",
+            "Atrial fibrillation",
+            "Myocarditis",
+            "Acute dystonic reactions",
+            "Myasthenia gravis",
+            "Anemia",
+            "Tuberculosis",
+            "PSVT",
+            "Chagas"
+        ]
+    },
+    {
+        "Age": 16,
+        "Sex": "M",
+        "Antecedents": [
+            "Have you traveled out of the country in the last 4 weeks? - North America"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - tedious & a pulse & sharp",
+            "Do you feel pain somewhere? - cervical spine & top of the head & forehead & occiput & temple(R)",
+            "How intense is the pain? - 3",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 4",
+            "How fast did the pain appear? - 6",
+            "Do you have a fever (either felt or measured with a thermometer)? - Y",
+            "Where is the swelling located? - nowhere",
+            "Have you been unintentionally losing weight or have you lost your appetite? - Y",
+            "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Chagas"
+        ]
+    },
+    {
+        "Age": 22,
+        "Sex": "F",
+        "Antecedents": [
+            "Do you have Parkinson\u2019s disease? - Y",
+            "Have you ever had a stroke? - Y",
+            "Have you ever had pneumonia? - Y",
+            "Do you have a chronic obstructive pulmonary disease (COPD)? - Y",
+            "Do you have asthma or have you ever had to use a bronchodilator in the past? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N",
+            "Are your vaccinations up to date? - Y"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - a knife stroke",
+            "Do you feel pain somewhere? - side of the chest(R) & upper chest & breast(L) & posterior chest wall(L)",
+            "How intense is the pain? - 6",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 3",
+            "How fast did the pain appear? - 5",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you have a cough that produces colored or more abundant sputum than usual? - Y",
+            "Do you have a fever (either felt or measured with a thermometer)? - Y",
+            "Have you had chills or shivers? - Y",
+            "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? - Y",
+            "What color is the rash? - pink",
+            "Do your lesions peel off? - Y",
+            "Is the rash swollen? - 3",
+            "Where is the affected region located? - commissure(R) & buttock(R) & shoulder(R)",
+            "How intense is the pain caused by the rash? - 3",
+            "Is the lesion (or are the lesions) larger than 1cm? - N",
+            "How severe is the itching? - 3",
+            "Do you have diffuse (widespread) muscle pain? - Y",
+            "Do you have a cough? - Y",
+            "Are your symptoms more prominent at night? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Pneumonia",
+            "Bronchitis",
+            "Bronchiectasis",
+            "Influenza",
+            "GERD",
+            "Unstable angina",
+            "Possible NSTEMI / STEMI",
+            "Panic attack",
+            "HIV (initial infection)",
+            "Tuberculosis",
+            "Stable angina",
+            "Boerhaave",
+            "Pericarditis",
+            "Myocarditis",
+            "Scombroid food poisoning",
+            "Bronchospasm / acute asthma exacerbation",
+            "Atrial fibrillation",
+            "Guillain-Barr\u00e9 syndrome",
+            "Acute dystonic reactions",
+            "Myasthenia gravis",
+            "Sarcoidosis",
+            "Chagas",
+            "PSVT",
+            "SLE"
+        ]
+    },
+    {
+        "Age": 10,
+        "Sex": "F",
+        "Antecedents": [
+            "Do you regularly take stimulant drugs? - Y",
+            "Do you drink alcohol excessively or do you have an addiction to alcohol? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N",
+            "Are your vaccinations up to date? - Y"
+        ],
+        "Symptoms": [
+            "Do you have pain that improves when you lean forward? - Y",
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - a knife stroke",
+            "Do you feel pain somewhere? - tonsil(L) & back of the neck & side of the neck(L) & palace & under the jaw",
+            "How intense is the pain? - 6",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 6",
+            "How fast did the pain appear? - 8",
+            "Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing? - Y",
+            "Do you have a fever (either felt or measured with a thermometer)? - Y",
+            "Have you noticed a high pitched sound when breathing in? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Larygospasm",
+            "Epiglottitis",
+            "Chagas",
+            "Viral pharyngitis"
+        ]
+    },
+    {
+        "Age": 99,
+        "Sex": "M",
+        "Antecedents": [
+            "Do you have severe Chronic Obstructive Pulmonary Disease (COPD)? - Y",
+            "Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year? - Y",
+            "Do you have a chronic obstructive pulmonary disease (COPD)? - Y",
+            "Have you ever been diagnosed with gastroesophageal reflux? - Y",
+            "Do you work in agriculture? - Y",
+            "Do you work in the mining sector? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you have a cough? - Y",
+            "Have you noticed a wheezing sound when you exhale? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Acute COPD exacerbation / infection",
+            "Bronchitis",
+            "Pulmonary neoplasm",
+            "Pneumonia",
+            "Tuberculosis",
+            "Acute pulmonary edema",
+            "Anaphylaxis",
+            "Guillain-Barr\u00e9 syndrome",
+            "Atrial fibrillation",
+            "Myocarditis",
+            "Pulmonary embolism",
+            "Bronchiectasis",
+            "Acute dystonic reactions",
+            "Myasthenia gravis",
+            "Anemia",
+            "Scombroid food poisoning",
+            "PSVT",
+            "SLE",
+            "Possible NSTEMI / STEMI",
+            "Chagas"
+        ]
+    },
+    {
+        "Age": 31,
+        "Sex": "M",
+        "Antecedents": [
+            "Have you ever had fluid in your lungs? - Y",
+            "Do you currently undergo dialysis? - Y",
+            "Do you have high blood pressure or do you take medications to treat high blood pressure? - Y",
+            "Have you ever had a heart attack or do you have angina (chest pain)? - Y",
+            "Do you have heart failure? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - tedious & tugging & heavy",
+            "Do you feel pain somewhere? - side of the chest(R) & upper chest & breast(R) & posterior chest wall(R) & posterior chest wall(L)",
+            "How intense is the pain? - 8",
+            "Does the pain radiate to another location? - biceps(R) & chin & jaw & scapula(R) & shoulder(L)",
+            "How precisely is the pain located? - 1",
+            "How fast did the pain appear? - 7",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you have bouts of choking or shortness of breath that wake you up at night? - Y",
+            "Do you have swelling in one or more areas of your body? - Y",
+            "Where is the swelling located? - ankle(R) & calf(R) & calf(L) & tibia(R) & tibia(L)",
+            "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today? - Y",
+            "Do you have symptoms that are increased with physical exertion but alleviated with rest? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Acute pulmonary edema",
+            "Unstable angina",
+            "Possible NSTEMI / STEMI",
+            "Stable angina",
+            "Myocarditis",
+            "Pulmonary embolism",
+            "Atrial fibrillation",
+            "Panic attack",
+            "Guillain-Barr\u00e9 syndrome",
+            "GERD",
+            "Chagas",
+            "Acute dystonic reactions",
+            "Myasthenia gravis",
+            "Sarcoidosis",
+            "Anaphylaxis",
+            "PSVT"
+        ]
+    },
+    {
+        "Age": 56,
+        "Sex": "F",
+        "Antecedents": [
+            "Do you drink alcohol excessively or do you have an addiction to alcohol? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - heartbreaking & haunting",
+            "Do you feel pain somewhere? - lower chest & upper chest & hypochondrium(R) & belly & epigastric",
+            "How intense is the pain? - 10",
+            "Does the pain radiate to another location? - scapula(R) & scapula(L)",
+            "How precisely is the pain located? - 1",
+            "How fast did the pain appear? - 8",
+            "Are you feeling nauseous or do you feel like vomiting? - Y",
+            "Have you recently thrown up blood or something resembling coffee beans? - Y",
+            "Have you vomited several times or have you made several efforts to vomit? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Boerhaave",
+            "Pancreatic neoplasm",
+            "GERD"
+        ]
+    },
+    {
+        "Age": 42,
+        "Sex": "M",
+        "Antecedents": [
+            "Have you traveled out of the country in the last 4 weeks? - N",
+            "Are you more likely to develop common allergies than the general population? - Y"
+        ],
+        "Symptoms": [
+            "Have you been in contact with or ate something that you have an allergy to? - Y",
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - a knife stroke & a cramp",
+            "Do you feel pain somewhere? - flank(L) & iliac fossa(R) & hypochondrium(R) & hypochondrium(L) & epigastric",
+            "How intense is the pain? - 4",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 6",
+            "How fast did the pain appear? - 3",
+            "Do you feel lightheaded and dizzy or do you feel like you are about to faint? - Y",
+            "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? - Y",
+            "What color is the rash? - pink",
+            "Do your lesions peel off? - N",
+            "Is the rash swollen? - 6",
+            "Where is the affected region located? - mouth & thyroid cartilage & ankle(R) & ankle(L) & cervical spine",
+            "How intense is the pain caused by the rash? - 3",
+            "Is the lesion (or are the lesions) larger than 1cm? - Y",
+            "How severe is the itching? - 9",
+            "Are you feeling nauseous or do you feel like vomiting? - Y",
+            "Do you have swelling in one or more areas of your body? - Y",
+            "Where is the swelling located? - forehead & cheek(R) & cheek(L)",
+            "Did you lose consciousness? - Y",
+            "Have you noticed a high pitched sound when breathing in? - Y",
+            "Have you noticed a wheezing sound when you exhale? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Anaphylaxis",
+            "GERD",
+            "Possible NSTEMI / STEMI",
+            "Localized edema",
+            "Pulmonary embolism",
+            "Inguinal hernia",
+            "Unstable angina",
+            "Larygospasm",
+            "Boerhaave",
+            "Panic attack",
+            "Anemia",
+            "PSVT",
+            "Epiglottitis",
+            "Chagas",
+            "Stable angina",
+            "Pericarditis",
+            "HIV (initial infection)",
+            "Pancreatic neoplasm"
+        ]
+    },
+    {
+        "Age": 30,
+        "Sex": "M",
+        "Antecedents": [
+            "Have you ever had a sexually transmitted infection? - Y",
+            "Are you currently using intravenous drugs? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have swollen or painful lymph nodes? - Y",
+            "Have you had significantly increased sweating? - Y",
+            "Have you had diarrhea or an increase in stool frequency? - Y",
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - tedious & a pulse",
+            "Do you feel pain somewhere? - back of head & top of the head & forehead & temple(R) & temple(L)",
+            "How intense is the pain? - 2",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 6",
+            "How fast did the pain appear? - 1",
+            "Do you have a fever (either felt or measured with a thermometer)? - Y",
+            "Do you have a sore throat? - Y",
+            "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? - Y",
+            "What color is the rash? - pale",
+            "Do your lesions peel off? - N",
+            "Is the rash swollen? - 4",
+            "Where is the affected region located? - lower gum & upper gum & labia majora(R) & labia majora(L) & bottom lip(R)",
+            "How intense is the pain caused by the rash? - 5",
+            "Is the lesion (or are the lesions) larger than 1cm? - Y",
+            "How severe is the itching? - 0",
+            "Do you have diffuse (widespread) muscle pain? - Y"
+        ],
+        "Differential Diagnosis": [
+            "HIV (initial infection)",
+            "Chagas",
+            "Influenza",
+            "Scombroid food poisoning",
+            "Sarcoidosis"
+        ]
+    },
+    {
+        "Age": 9,
+        "Sex": "M",
+        "Antecedents": [
+            "Do you work in agriculture? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have swollen or painful lymph nodes? - Y",
+            "Have you lost consciousness associated with violent and sustained muscle contractions or had an absence episode? - Y",
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - sensitive & burning & sharp",
+            "Do you feel pain somewhere? - finger (ring finger)(L) & finger (little finger)(R) & finger (little finger)(L) & finger (index)(R) & shoulder(R)",
+            "How intense is the pain? - 5",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 9",
+            "How fast did the pain appear? - 1",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "What color is the rash? - NA",
+            "Do your lesions peel off? - N",
+            "Is the rash swollen? - 0",
+            "Where is the affected region located? - nowhere",
+            "How intense is the pain caused by the rash? - 0",
+            "Is the lesion (or are the lesions) larger than 1cm? - N",
+            "How severe is the itching? - 0"
+        ],
+        "Differential Diagnosis": [
+            "Sarcoidosis",
+            "Myocarditis",
+            "SLE",
+            "Pulmonary embolism"
+        ]
+    },
+    {
+        "Age": 41,
+        "Sex": "M",
+        "Antecedents": [
+            "Have you started or taken any antipsychotic medication within the last 7 days? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have trouble keeping your tongue in your mouth? - Y",
+            "Do you suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Acute dystonic reactions"
+        ]
+    },
+    {
+        "Age": 69,
+        "Sex": "F",
+        "Antecedents": [
+            "Do you smoke cigarettes? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain somewhere, related to your reason for consulting? - Y",
+            "Characterize your pain: - sensitive & exhausting",
+            "Do you feel pain somewhere? - back of head & side of the neck(R) & side of the neck(L) & occiput & pharynx",
+            "How intense is the pain? - 7",
+            "Does the pain radiate to another location? - nowhere",
+            "How precisely is the pain located? - 8",
+            "How fast did the pain appear? - 2",
+            "Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long? - Y",
+            "Do you have a fever (either felt or measured with a thermometer)? - Y",
+            "Do you have a sore throat? - Y",
+            "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? - Y",
+            "What color is the rash? - pink",
+            "Do your lesions peel off? - N",
+            "Is the rash swollen? - 0",
+            "Where is the affected region located? - back of the neck",
+            "How intense is the pain caused by the rash? - 0",
+            "Is the lesion (or are the lesions) larger than 1cm? - Y",
+            "How severe is the itching? - 3",
+            "Do you have diffuse (widespread) muscle pain? - Y",
+            "Do you have a cough? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Influenza",
+            "URTI",
+            "Viral pharyngitis",
+            "Bronchitis",
+            "Pneumonia",
+            "HIV (initial infection)",
+            "Acute laryngitis",
+            "Chagas",
+            "Scombroid food poisoning",
+            "Anemia",
+            "Tuberculosis",
+            "Anaphylaxis"
+        ]
+    },
+    {
+        "Age": 64,
+        "Sex": "M",
+        "Antecedents": [
+            "Do you have cystic fibrosis? - Y",
+            "Do you have Rheumatoid Arthritis? - Y",
+            "Do you suffer from Crohn\u2019s disease or ulcerative colitis (UC)? - Y",
+            "Have you ever had pneumonia? - Y",
+            "Do you have asthma or have you ever had to use a bronchodilator in the past? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - North America",
+            "Are you immunosuppressed? - Y"
+        ],
+        "Symptoms": [
+            "Have you been coughing up blood? - Y",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Do you have a cough? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Bronchitis",
+            "Pulmonary neoplasm",
+            "Tuberculosis",
+            "Ebola",
+            "Bronchiectasis",
+            "Acute pulmonary edema",
+            "Guillain-Barr\u00e9 syndrome",
+            "Bronchospasm / acute asthma exacerbation",
+            "Atrial fibrillation",
+            "Pulmonary embolism",
+            "Acute dystonic reactions",
+            "Myocarditis",
+            "Pneumonia",
+            "PSVT"
+        ]
+    },
+    {
+        "Age": 68,
+        "Sex": "M",
+        "Antecedents": [
+            "Are there any members of your family who have been diagnosed myasthenia gravis? - Y",
+            "Have you traveled out of the country in the last 4 weeks? - N"
+        ],
+        "Symptoms": [
+            "Do you have pain or weakness in your jaw? - Y",
+            "Do you have difficulty articulating words/speaking? - Y",
+            "Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing? - Y",
+            "Are you experiencing shortness of breath or difficulty breathing in a significant way? - Y",
+            "Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face? - Y"
+        ],
+        "Differential Diagnosis": [
+            "Myasthenia gravis",
+            "Anemia",
+            "Myocarditis",
+            "Possible NSTEMI / STEMI",
+            "Pulmonary neoplasm",
+            "Pulmonary embolism"
+        ]
+    }
+]
